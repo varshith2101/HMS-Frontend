@@ -271,7 +271,7 @@ This project is production-ready and deployed across three platforms:
 
 ### Backend Deployment (Render)
 
-Your backend is already deployed on Render at:
+Backend is already deployed on Render at:
 ```
 https://hms-backend-bbl7.onrender.com
 ```
@@ -284,7 +284,7 @@ https://hms-backend-bbl7.onrender.com
 
 ### Database (Neon PostgreSQL)
 
-Your PostgreSQL database is hosted on Neon (serverless Postgres). Ensure:
+PostgreSQL database is hosted on Neon (serverless Postgres). Ensure:
 - Backend has correct `DATABASE_URL` in Render environment variables
 - Connection pooling is configured
 - SSL mode is enabled for secure connections
@@ -554,10 +554,14 @@ This project is part of the Hospital Management System. All rights reserved.
 
 <div align="center">
 
-**Built with ❤️ using React, Vite, and Neo-Brutalism Design**
+**Built using React, Vite, and Neo-Brutalism Design, Solely to act as a frontend to my more extensive Java-Springboot based Backend experiment**
+Check it out if you can! 
 
-Made by [Your Name/Team]
+[Backend](https://github.com/varshith2101/Hospital-Management-System)
+
+Made by Varshith Jalla (Almost a Software Developer)
 
 [⬆ Back to Top](#-hospital-management-system---frontend)
 
 </div>
+
