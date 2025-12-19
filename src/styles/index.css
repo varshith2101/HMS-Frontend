@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-yellow-50 via-pink-50 to-cyan-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-cyan-400 hover:bg-cyan-500 text-black font-bold py-2 px-6 border-4 border-black shadow-neo hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all;
+  }
+
+  .btn-secondary {
+    @apply bg-yellow-300 hover:bg-yellow-400 text-black font-bold py-2 px-6 border-4 border-black shadow-neo hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all;
+  }
+
+  .btn-danger {
+    @apply bg-red-400 hover:bg-red-500 text-black font-bold py-2 px-6 border-4 border-black shadow-neo hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all;
+  }
+
+  .card {
+    @apply bg-white border-4 border-black shadow-neo-lg p-6;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 border-4 border-black focus:outline-none focus:ring-0 focus:border-black bg-white font-semibold;
+  }
+
+  .label {
+    @apply block text-sm font-bold text-gray-900 mb-2 uppercase tracking-wide;
+  }
+
+  /* Custom scrollbar for neo-brutalism */
+  .scrollbar-neo::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .scrollbar-neo::-webkit-scrollbar-track {
+    background: #fff;
+    border: 3px solid #000;
+  }
+
+  .scrollbar-neo::-webkit-scrollbar-thumb {
+    background: #FFEB3B;
+    border: 3px solid #000;
+  }
+
+  .scrollbar-neo::-webkit-scrollbar-thumb:hover {
+    background: #FF6B9D;
+  }
+}
